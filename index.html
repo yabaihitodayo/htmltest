@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>カコタム組み合わせメーカー</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>カコタム組み合わせメーカー</h1>
+        <p>以下のフォームに先生と子供の名前を追加してください。</p>
+
+        <!-- メンバー追加フォーム -->
+        <div class="form-group">
+            <input type="text" id="member-name" placeholder="先生名を入力">
+            <button id="add-member">先生を追加</button>
+        </div>
+        <ul id="member-list" class="list">
+            <!-- メンバー一覧がここに表示されます -->
+        </ul>
+
+        <!-- 子供追加フォーム -->
+        <div class="form-group">
+            <input type="text" id="child-name" placeholder="子供名を入力">
+            <button id="add-child">子供を追加</button>
+        </div>
+        <ul id="child-list" class="list">
+            <!-- 子供一覧がここに表示されます -->
+        </ul>
+
+        <!-- 枠の管理 -->
+        <div class="form-group">
+            <button id="add-frame">枠を追加</button>
+            <button id="remove-frame">枠を削除</button>
+        </div>
+
+        <div id="result-container" class="result-container">
+            <!-- 動的に枠が追加されます -->
+        </div>
+
+      <h6>   
+      <h6>ver1.3 枠を追加できるようになりました<h6><button id="generate">組み合わせを生成</button>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
